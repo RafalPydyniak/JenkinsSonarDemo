@@ -1,0 +1,10 @@
+Bundle-Name: demo-api
+Bundle-SymbolicName: com.pydyniak.demo.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.pydyniak.demo.exception,\
+	com.pydyniak.demo.model,\
+	com.pydyniak.demo.service,\
+	com.pydyniak.demo.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../demo-service/service.xml
